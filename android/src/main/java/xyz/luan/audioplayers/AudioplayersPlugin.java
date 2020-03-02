@@ -228,7 +228,7 @@ public class AudioplayersPlugin implements MethodCallHandler {
                         audioplayersPlugin.seekFinish = false;
                     }
                 } catch (UnsupportedOperationException e) {
-
+                    player.stop();
                 }
             }
 
